@@ -1,5 +1,3 @@
-setwd("~/Google Drive/BUSINESS INTELLIGENCE/R/Project")
-
 getmode <- function(x){
   uniqv <- unique(x)
   mode = uniqv[which.max(tabulate(match(x,uniqv)))]
